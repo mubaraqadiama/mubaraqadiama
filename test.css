@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content: space-around; /* Or 'space-between', 'center', etc., depending on your layout preference */
+    align-items: center; /* Vertically centers the items */
+    height: 50vh; /* Optional: makes sure the container takes full viewport height */
+    background: blue;
+    max-width: 80%;
+    margin: auto;
+    border: 100px solid black; 
+    border-radius: 10px;
+}
+
+.container div {
+    flex: 1; /* Distributes space evenly between the two items */
+    text-align: center; /* Centers the text within each div */
+}
+#home-btn{
+    border: none;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ color:blue;
+ font-weight: bold;
+ font-size:50px;
+ width: 100px;
+ background: linear-gradient(to right, #5fff97, #feb47b);
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+ margin-bottom: 10px;
+ border-radius: 10px;
+}
+#guest-btn{
+    border: none;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:blue;
+    font-weight: bold;
+    font-size:50px;
+    width: 100px;
+    background: linear-gradient(to right, #5fff97, #feb47b);
+     font-family: 'Arial', sans-serif;
+     color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
